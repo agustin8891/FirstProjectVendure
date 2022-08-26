@@ -1,0 +1,180 @@
+/* General */
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; 
+    background-color: #282c34;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  --ft-ubuntu: 'Ubuntu', sans-serif;
+  font-family: var(--ft-ubuntu);
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+/* Parte de Cards */
+
+.titleClass{
+  color:#fff; 
+  margin-top:45px;
+  margin-bottom:45px;
+   font-family: var(--ft-dancing)
+}
+
+.mainStyle{
+  background-color: #282c34;
+}
+
+/* Paginado */
+
+.fatherOfPages{
+  display:flex;
+  align-items:center;
+  margin-bottom:45px;
+}
+
+.divPages{
+  margin: 0 auto;
+}
+
+.pageClassItem{
+  cursor: pointer;
+}
+
+.fatherOfCards {
+  /* height:700px; */
+  margin-bottom:45px;
+  overflow: hidden;
+}
+
+/* Parte de las cards */
+
+.cardStyle {
+  min-height: 650px;
+  max-height: 650px;
+  overflow: hidden;
+  font-family:  Helvetica Neue;
+  cursor:pointer;
+
+}
+
+.cardBodyStyle{
+  background-color: #aaa8a8 
+}
+
+
+.cardStyle:hover {
+  transform: rotateY(360deg);
+  transition: all 2s;
+}
+
+.imageContainer{  
+  background-color: #aaa8a8;
+    display:flex;
+    justify-content:space-around;
+}
+
+
+.imagenstyle {
+  height:200px;
+  width:280px;
+  object-fit: scale-down;
+}
+
+
+
+.fragmentClass{
+  height:650px;
+  margin-bottom:25px;
+}
+
+
+
+.imageWrapper{
+  overflow: hidden;
+  width:500px;
+}
+.imagestyle {
+  width:500px;
+}
+
+.imgDetail{
+  display:grid;
+  justify-content:center;
+  align-content:center;
+  background-color: #aaa8a8;
+}
+
+.divDescription{
+  background-color: #aaa8a8;
+}
+
+
+.detailImage{
+  max-height:900px ;
+}
+
+.botonDetail{
+  padding:0px;
+  margin:center;
+  width: 536px;
+  height: 43px;
+  cursor: pointer;
+  background-color: #aaa8a8 ;
+  position:relative;
+  display:inline-block;
+  padding-top:0px;
+  border-color: #2a2a2a;
+  border-radius: 15px;
+  color: #2a2a2a;
+  font-size: 18px;
+  font-family:ericma;
+  text-decoration: none;
+  font-weight: bold;
+  border-style: solid;
+ }
+
+ .botonDetail:hover{
+  background-color: #ffac46;   
+}   
+
+
+
+
+.ContainerDetails{
+  background-color: #282c34;
+}
+.ContainerDetails2{
+  background-color: #282c34;
+
+}
+
+.ContainerDetails3{
+  background-color: #aaa8a8
+}
+
+.buttonContainer {
+  background-color: #282c34;
+  display:grid;
+  justify-content:center;
+  align-content:center;
+}
